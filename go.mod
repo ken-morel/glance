@@ -1,6 +1,6 @@
 module github.com/glanceapp/glance
 
-go 1.21.11
+go 1.22.3
 
 require (
 	github.com/mmcdole/gofeed v1.3.0
