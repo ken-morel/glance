@@ -636,7 +636,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/shellsy"
+		"/C/glance"
 	],
 	"file_history":
 	[
@@ -844,7 +844,7 @@
 		"height": 126.0
 	},
 	"pinned_build_system": "",
-	"project": "shellsy.sublime-project",
+	"project": "glance.sublime-project",
 	"replace":
 	{
 		"height": 50.0
