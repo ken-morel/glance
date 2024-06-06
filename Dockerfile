@@ -1,24 +1,20 @@
 FROM alpine:3.20
 FROM golang:1.21 as builder
 
-ARG TARGETOS
-ARG TARGETARCH
-ARG TARGETVARIANT
+WORKDIR /app
 
 COPY go.mod go.sum ./
 RUN go mod download
 
-RUN CGO_ENABLED=0 go build -o /server
+COPY . .
+
+RUN CGO_ENABLED=0 go build -o /glance
 
 FROM gcr.io/distroless/base-debian11 as final
 
-COPY --from=builder /server /server
+COPY --from=builder /glance /glance
 
 ENV PORT 3000
 EXPOSE $PORT
 
-WORKDIR /app
-COPY build/glance-$TARGETOS-$TARGETARCH${TARGETVARIANT} /app/glance
-
 ENTRYPOINT ["/app/glance"]
-
