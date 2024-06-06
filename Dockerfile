@@ -17,4 +17,5 @@ COPY --from=builder /glance /glance
 ENV PORT 3000
 EXPOSE $PORT
 
+
 ENTRYPOINT ["/app/glance"]
