@@ -247,6 +247,116 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Windows PowerShell                                                                                                     \nCopyright (C) 2014 Microsoft Corporation. All rights reserved.                                                         \n                                                                                                                       \nPS C:\\glance> go",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Windows",
+				"name": "Windows PowerShell",
+				"scratch": true
+			}
+		},
+		{
+			"file": "glance.yml",
+			"settings":
+			{
+				"buffer_size": 2302,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAMgBAAAAAAAAyQEAAAAAAAAAAAAAyQEAAAAAAADZAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAEAAAAAAADIAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					3,
+					"left_delete",
+					null,
+					"AwAAANcBAAAAAAAA1wEAAAAAAAACAAAAICDVAQAAAAAAANUBAAAAAAAAAgAAACAg0wEAAAAAAADTAQAAAAAAAAIAAAAgIA",
+					"AQAAAAAAAAABAAAA2QEAAAAAAADZAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"paste_and_indent",
+					null,
+					"AQAAANMBAAAAAAAA0gMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0wEAAAAAAADTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAsDAAAAAAAACwMAAAAAAADIAAAAICAgICAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9rZW4tbW9yZWwtYXBpLnVwLnJhaWx3YXkuYXBwL2NvdW50ZXJzL2dpdGh1Yi1wcm9maWxlL3JlbW92ZS5zdmciIC8+CiAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vc3RhY2tvdmVyZmxvdy5jb20vdXNlcnMvZmxhaXIvMjI3MTkzMDgucG5nP3RoZW1lPWRhcmsmY2FjaGU9MzAwIiAvPgo",
+					"AQAAAAAAAAABAAAACwMAAAAAAADTAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOABAAAAAAAA4AEAAAAAAAArAQAAICAgICAgICAgICAgc291cmNlOiB8CiAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8va2VuLW1vcmVsLXN0YXRzLnZlcmNlbC5hcHAvYXBpP3VzZXJuYW1lPWtlbi1tb3JlbCZjb3VudF9wcml2YXRlPXRydWUmc2hvd19pY29ucz10cnVlJmluY2x1ZGVfYWxsX2NvbW1pdHM9dHJ1ZSZzaG93PXJldmlld3MsZGlzY3Vzc2lvbnNfc3RhcnRlZCxkaXNjdXNzaW9uc19hbnN3ZXJlZCxwcnNfbWVyZ2VkLHByc19tZXJnZWRfcGVyY2VudGFnZSZ0aGVtZT1ub3JkJmhpZGVfYm9yZGVyPXRydWUmYm9yZGVyX3JhZGl1cz0wIiAvPgo",
+					"AQAAAAAAAAABAAAA4AEAAAAAAAALAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMkBAAAAAAAAyQEAAAAAAAAXAAAAICAgICAgICAgIC0gdHlwZTogaHRtbAo",
+					"AQAAAAAAAAABAAAAyQEAAAAAAADgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					2,
+					"left_delete",
+					null,
+					"AgAAACABAAAAAAAAIAEAAAAAAAABAAAANB8BAAAAAAAAHwEAAAAAAAABAAAAMg",
+					"AQAAAAAAAAABAAAAIQEAAAAAAAAhAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"insert",
+					{
+						"characters": "12"
+					},
+					"AgAAAB8BAAAAAAAAIAEAAAAAAAAAAAAAIAEAAAAAAAAhAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwEAAAAAAAAfAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "internal/feed/monitor.go",
+			"settings":
+			{
+				"buffer_size": 1380,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					27,
+					1,
+					"gotools_format",
+					null,
+					"AQAAAAAAAAAAAAAAZAUAAAAAAABkBQAAcGFja2FnZSBmZWVkCgppbXBvcnQgKAoJImNvbnRleHQiCgkiZXJyb3JzIgoJIm5ldC9odHRwIgoJInRpbWUiCikKCnR5cGUgU2l0ZVN0YXR1c1JlcXVlc3Qgc3RydWN0IHsKCVVSTCAgICAgICAgICAgc3RyaW5nIGB5YW1sOiJ1cmwiYAoJQWxsb3dJbnNlY3VyZSBib29sICAgYHlhbWw6ImFsbG93LWluc2VjdXJlImAKfQoKdHlwZSBTaXRlU3RhdHVzIHN0cnVjdCB7CglDb2RlICAgICAgICAgaW50CglUaW1lZE91dCAgICAgYm9vbAoJUmVzcG9uc2VUaW1lIHRpbWUuRHVyYXRpb24KCUVycm9yICAgICAgICBlcnJvcgp9CgpmdW5jIGdldFNpdGVTdGF0dXNUYXNrKHN0YXR1c1JlcXVlc3QgKlNpdGVTdGF0dXNSZXF1ZXN0KSAoU2l0ZVN0YXR1cywgZXJyb3IpIHsKCXJlcXVlc3QsIGVyciA6PSBodHRwLk5ld1JlcXVlc3QoaHR0cC5NZXRob2RHZXQsIHN0YXR1c1JlcXVlc3QuVVJMLCBuaWwpCgoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIFNpdGVTdGF0dXN7CgkJCUVycm9yOiBlcnIsCgkJfSwgbmlsCgl9CgoJY3R4LCBjYW5jZWwgOj0gY29udGV4dC5XaXRoVGltZW91dChjb250ZXh0LkJhY2tncm91bmQoKSwgdGltZS5TZWNvbmQqMykKCWRlZmVyIGNhbmNlbCgpCglyZXF1ZXN0ID0gcmVxdWVzdC5XaXRoQ29udGV4dChjdHgpCglyZXF1ZXN0U2VudEF0IDo9IHRpbWUuTm93KCkKCXZhciByZXNwb25zZSAqaHR0cC5SZXNwb25zZQoKCWlmICFzdGF0dXNSZXF1ZXN0LkFsbG93SW5zZWN1cmUgewoJCXJlc3BvbnNlLCBlcnIgPSBkZWZhdWx0Q2xpZW50LkRvKHJlcXVlc3QpCgl9IGVsc2UgewoJCXJlc3BvbnNlLCBlcnIgPSBkZWZhdWx0SW5zZWN1cmVDbGllbnQuRG8ocmVxdWVzdCkKCX0KCglzdGF0dXMgOj0gU2l0ZVN0YXR1c3tSZXNwb25zZVRpbWU6IHRpbWUuU2luY2UocmVxdWVzdFNlbnRBdCl9CgoJaWYgZXJyICE9IG5pbCB7CgkJaWYgZXJyb3JzLklzKGVyciwgY29udGV4dC5EZWFkbGluZUV4Y2VlZGVkKSB7CgkJCXN0YXR1cy5UaW1lZE91dCA9IHRydWUKCQl9CgoJCXN0YXR1cy5FcnJvciA9IGVycgoJCXJldHVybiBzdGF0dXMsIG5pbAoJfQoKCWRlZmVyIHJlc3BvbnNlLkJvZHkuQ2xvc2UoKQoKCXN0YXR1cy5Db2RlID0gcmVzcG9uc2UuU3RhdHVzQ29kZQoKCXJldHVybiBzdGF0dXMsIG5pbAp9CgpmdW5jIEZldGNoU3RhdHVzRm9yU2l0ZXMocmVxdWVzdHMgW10qU2l0ZVN0YXR1c1JlcXVlc3QpIChbXVNpdGVTdGF0dXMsIGVycm9yKSB7Cglqb2IgOj0gbmV3Sm9iKGdldFNpdGVTdGF0dXNUYXNrLCByZXF1ZXN0cykud2l0aFdvcmtlcnMoMjApCglyZXN1bHRzLCBfLCBlcnIgOj0gd29ya2VyUG9vbERvKGpvYikKCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCglyZXR1cm4gcmVzdWx0cywgbmlsCn0K",
+					"AQAAAAAAAAABAAAATgUAAAAAAABhBQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -640,6 +750,15 @@
 	],
 	"file_history":
 	[
+		"/C/glance/internal/feed/polygon.go",
+		"/C/glance/codes.txt",
+		"/C/Sbook/sbook/settings.py",
+		"/C/glance/internal/feed/monitor.go",
+		"/C/glance/internal/feed/requests.go",
+		"/C/glance/internal/feed/yahoo.go",
+		"/C/glance/internal/feed/youtube.go",
+		"/C/glance/internal/feed/reddit.go",
+		"/C/glance/internal/widget/currency.go",
 		"/C/ken-morel/README.md",
 		"/C/glance/railway.json",
 		"/C/glance/go.mod",
@@ -747,7 +866,6 @@
 		"/C/Sbook/requirements.txt",
 		"/C/Sbook/note/accounts.py",
 		"/C/del/del/del/settings.py",
-		"/C/Sbook/sbook/settings.py",
 		"/C/Sbook/manage.py",
 		"/C/python-3.12.3-embed-win32/python312._pth",
 		"/C/Sbook/main.py"
@@ -789,6 +907,168 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"rainbow_checked": true,
+							"result_base_dir": "C:\\glance",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								[
+									50,
+									"dotted"
+								],
+								[
+									79,
+									"solid",
+									2
+								],
+								500
+							],
+							"scroll_past_end": true,
+							"show_line_column": "disabled",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"powershell.exe"
+								],
+								"cwd": "C:\\glance",
+								"default_title": "PowerShell",
+								"env":
+								{
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": "Terminus",
+								"reactivable": true,
+								"show_in_panel": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.reactivable": true,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 0.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "glance.yml",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2302,
+								2302
+							]
+						],
+						"settings":
+						{
+							"rainbow_checked": true,
+							"show_line_column": "disabled",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 629.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "internal/feed/monitor.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1358,
+								1377
+							]
+						],
+						"settings":
+						{
+							"rainbow_checked": true,
+							"show_line_column": "disabled",
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 776.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -841,7 +1121,7 @@
 	},
 	"output.gotools_syntax_errors":
 	{
-		"height": 126.0
+		"height": 98.0
 	},
 	"pinned_build_system": "",
 	"project": "glance.sublime-project",

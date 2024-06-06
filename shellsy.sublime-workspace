@@ -634,10 +634,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/shellsy"
-	],
 	"file_history":
 	[
 		"/C/ken-morel/README.md",
@@ -867,7 +863,7 @@
 		[
 			[
 				"",
-				"C:\\Sbook\\Sbook.sublime-project"
+				"C:\\shellsy\\shellsy.sublime-project"
 			]
 		],
 		"width": 380.0
