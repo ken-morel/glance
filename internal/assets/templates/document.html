@@ -17,9 +17,13 @@
     <link rel="icon" type="image/png" href="/static/favicon.png" />
     <link rel="stylesheet" href="/static/main.css?v={{ .App.Config.Server.StartedAt.Unix }}">
     <script async src="/static/main.js?v={{ .App.Config.Server.StartedAt.Unix }}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     {{ block "document-head-after" . }}{{ end }}
 </head>
-<body>
-{{ template "document-body" . }}
+<body ng-app="glance">
+    {{ template "document-body" . }}
 </body>
 </html>

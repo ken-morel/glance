@@ -248,490 +248,22 @@
 	"buffers":
 	[
 		{
-			"contents": "Windows PowerShell                                                                                                                        \nCopyright (C) 2014 Microsoft Corporation. All rights reserved.                                                                            \n                                                                                                                                          \nPS C:\\glance>  go run .\n2024/06/07 18:10:16 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go build\nPS C:\\glance> go build .\nPS C:\\glance> ",
+			"contents": "Windows PowerShell                                                                                                                     \nCopyright (C) 2014 Microsoft Corporation. All rights reserved.                                                                         \n                                                                                                                                       \nPS C:\\glance> go run .                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:11:57 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:39:06 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:39:32 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:40:28 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:48:47 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:54:08 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:58:23 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:59:45 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:02:38 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:04:50 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \nfailed parsing config file: missing source for iframe                                                                                  \nexit status 1                                                                                                                          \ngo: remove C:\\Users\\CHEFSE~1\\AppData\\Local\\Temp\\go-build2510996954\\b001\\exe\\glance.exe: The process cannot access the file because it i​‌​\ns being used by another process.                                                                                                       \nPS C:\\glance> go run .                                                                                                                 \nfailed parsing config file: missing source for iframe                                                                                  \nexit status 1                                                                                                                          \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:12:26 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:14:05 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:22:17 INFO Starting server host=\"\" port=80                                                                               \n",
 			"settings":
 			{
-				"buffer_size": 775,
+				"buffer_size": 6803,
 				"line_ending": "Windows",
 				"name": "Windows PowerShell",
 				"scratch": true
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"terminus_activate",
-					{
-						"auto_close": true,
-						"cancellable": false,
-						"cmd":
-						[
-							"powershell.exe"
-						],
-						"cwd": "C:\\glance",
-						"default_title": "PowerShell",
-						"env":
-						{
-							"TERMINUS_SUBLIME": "1",
-							"TERM_PROGRAM": "Terminus-Sublime"
-						},
-						"file_regex": null,
-						"line_regex": null,
-						"panel_name": "Terminus",
-						"reactivable": true,
-						"show_in_panel": null,
-						"tag": null,
-						"timeit": false,
-						"title": null
-					},
-					"AQAAAAAAAAAAAAAAAAAAAAAAAAB4AQAAV2luZG93cyBQb3dlclNoZWxsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKQ29weXJpZ2h0IChDKSAyMDE0IE1pY3Jvc29mdCBDb3Jwb3JhdGlvbi4gQWxsIHJpZ2h0cyByZXNlcnZlZC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKUFMgQzpcZ2xhbmNlPiBnbw",
-					"AQAAAAAAAAABAAAAeAEAAAAAAAB4AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					2,
-					2,
-					"terminus_render",
-					null,
-					"fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACgAAAAAAAAAAAAAACcAAAAAAAAAJwAAAAAAAAABAAAACiYAAAAAAAAAJgAAAAAAAAABAAAACiUAAAAAAAAAJQAAAAAAAAABAAAACiQAAAAAAAAAJAAAAAAAAAABAAAACiMAAAAAAAAAIwAAAAAAAAABAAAACiIAAAAAAAAAIgAAAAAAAAABAAAACiEAAAAAAAAAIQAAAAAAAAABAAAACiAAAAAAAAAAIAAAAAAAAAABAAAACh8AAAAAAAAAHwAAAAAAAAABAAAACh4AAAAAAAAAHgAAAAAAAAABAAAACh0AAAAAAAAAHQAAAAAAAAABAAAAChwAAAAAAAAAHAAAAAAAAAABAAAAChsAAAAAAAAAGwAAAAAAAAABAAAAChoAAAAAAAAAGgAAAAAAAAABAAAAChkAAAAAAAAAGQAAAAAAAAABAAAAChgAAAAAAAAAGAAAAAAAAAABAAAAChcAAAAAAAAAFwAAAAAAAAABAAAAChYAAAAAAAAAFgAAAAAAAAABAAAAChUAAAAAAAAAFQAAAAAAAAABAAAAChQAAAAAAAAAFAAAAAAAAAABAAAAChMAAAAAAAAAEwAAAAAAAAABAAAAChIAAAAAAAAAEgAAAAAAAAABAAAAChEAAAAAAAAAEQAAAAAAAAABAAAAChAAAAAAAAAAEAAAAAAAAAABAAAACg8AAAAAAAAADwAAAAAAAAABAAAACg4AAAAAAAAADgAAAAAAAAABAAAACg0AAAAAAAAADQAAAAAAAAABAAAACgwAAAAAAAAADAAAAAAAAAABAAAACgsAAAAAAAAACwAAAAAAAAABAAAACgoAAAAAAAAACgAAAAAAAAABAAAACgkAAAAAAAAACQAAAAAAAAABAAAACggAAAAAAAAACAAAAAAAAAABAAAACgcAAAAAAAAABwAAAAAAAAABAAAACgYAAAAAAAAABgAAAAAAAAABAAAACgUAAAAAAAAABQAAAAAAAAABAAAACgQAAAAAAAAABAAAAAAAAAABAAAACgMAAAAAAAAAAwAAAAAAAAABAAAACgIAAAAAAAAAAgAAAAAAAAABAAAACgEAAAAAAAAAAQAAAAAAAAABAAAACgAAAAAAAAAAAAAAAAAAAAABAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAigAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"terminus_render",
-					null,
-					"DAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAACKAAAAAAAAAAAAAACKAAAAAAAAAIsAAAAAAAAAAAAAAIsAAAAAAAAAyQAAAAAAAAAAAAAAyQAAAAAAAAAVAQAAAAAAAAAAAAAVAQAAAAAAABYBAAAAAAAAAAAAABYBAAAAAAAAFgEAAAAAAAAAAAAAFgEAAAAAAACgAQAAAAAAAAAAAACgAQAAAAAAAKEBAAAAAAAAAAAAAKEBAAAAAAAArgEAAAAAAAAAAAAArgEAAAAAAAArAgAAAAAAAAAAAACvAQAAAAAAAK8BAAAAAAAAfAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"terminus_render",
-					null,
-					"dQAAAAAAAAAAAAAAEgAAAAAAAACKAAAAV2luZG93cyBQb3dlclNoZWxsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgEgAAAAAAAACKAAAAAAAAAAAAAACLAAAAAAAAAMkAAAAAAAAAigAAAENvcHlyaWdodCAoQykgMjAxNCBNaWNyb3NvZnQgQ29ycG9yYXRpb24uIEFsbCByaWdodHMgcmVzZXJ2ZWQuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIMkAAAAAAAAAFQEAAAAAAAAAAAAAFgEAAAAAAAAWAQAAAAAAAIoAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAWAQAAAAAAAKABAAAAAAAAAAAAAKEBAAAAAAAArgEAAAAAAAAOAAAAUFMgQzpcZ2xhbmNlPiCuAQAAAAAAACsCAAAAAAAAAAAAACsCAAAAAAAALAIAAAAAAAAAAAAALAIAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAAC0CAAAAAAAAAAAAAC0CAAAAAAAALQIAAAAAAAAAAAAALQIAAAAAAAAuAgAAAAAAAAAAAAAuAgAAAAAAAC4CAAAAAAAAAAAAAC4CAAAAAAAALwIAAAAAAAAAAAAALwIAAAAAAAAvAgAAAAAAAAAAAAAvAgAAAAAAADACAAAAAAAAAAAAADACAAAAAAAAMAIAAAAAAAAAAAAAMAIAAAAAAAAxAgAAAAAAAAAAAAAxAgAAAAAAADECAAAAAAAAAAAAADECAAAAAAAAMgIAAAAAAAAAAAAAMgIAAAAAAAAyAgAAAAAAAAAAAAAyAgAAAAAAADMCAAAAAAAAAAAAADMCAAAAAAAAMwIAAAAAAAAAAAAAMwIAAAAAAAA0AgAAAAAAAAAAAAA0AgAAAAAAADQCAAAAAAAAAAAAADQCAAAAAAAANQIAAAAAAAAAAAAANQIAAAAAAAA1AgAAAAAAAAAAAAA1AgAAAAAAADYCAAAAAAAAAAAAADYCAAAAAAAANgIAAAAAAAAAAAAANgIAAAAAAAA3AgAAAAAAAAAAAAA3AgAAAAAAADcCAAAAAAAAAAAAADcCAAAAAAAAOAIAAAAAAAAAAAAAOAIAAAAAAAA4AgAAAAAAAAAAAAA4AgAAAAAAADkCAAAAAAAAAAAAADkCAAAAAAAAOQIAAAAAAAAAAAAAOQIAAAAAAAA6AgAAAAAAAAAAAAA6AgAAAAAAADoCAAAAAAAAAAAAADoCAAAAAAAAOwIAAAAAAAAAAAAAOwIAAAAAAAA7AgAAAAAAAAAAAAA7AgAAAAAAADwCAAAAAAAAAAAAADwCAAAAAAAAPAIAAAAAAAAAAAAAPAIAAAAAAAA9AgAAAAAAAAAAAAA9AgAAAAAAAD0CAAAAAAAAAAAAAD0CAAAAAAAAPgIAAAAAAAAAAAAAPgIAAAAAAAA+AgAAAAAAAAAAAAA+AgAAAAAAAD8CAAAAAAAAAAAAAD8CAAAAAAAAPwIAAAAAAAAAAAAAPwIAAAAAAABAAgAAAAAAAAAAAABAAgAAAAAAAEACAAAAAAAAAAAAAEACAAAAAAAAQQIAAAAAAAAAAAAAQQIAAAAAAABBAgAAAAAAAAAAAABBAgAAAAAAAEICAAAAAAAAAAAAAEICAAAAAAAAQgIAAAAAAAAAAAAAQgIAAAAAAABDAgAAAAAAAAAAAABDAgAAAAAAAEMCAAAAAAAAAAAAAEMCAAAAAAAARAIAAAAAAAAAAAAARAIAAAAAAABEAgAAAAAAAAAAAABEAgAAAAAAAEUCAAAAAAAAAAAAAEUCAAAAAAAARQIAAAAAAAAAAAAARQIAAAAAAABGAgAAAAAAAAAAAABGAgAAAAAAAEYCAAAAAAAAAAAAAEYCAAAAAAAARwIAAAAAAAAAAAAARwIAAAAAAABHAgAAAAAAAAAAAABHAgAAAAAAAEgCAAAAAAAAAAAAAEgCAAAAAAAASAIAAAAAAAAAAAAASAIAAAAAAABJAgAAAAAAAAAAAABJAgAAAAAAAEkCAAAAAAAAAAAAAEkCAAAAAAAASgIAAAAAAAAAAAAASgIAAAAAAABKAgAAAAAAAAAAAABKAgAAAAAAAEsCAAAAAAAAAAAAAEsCAAAAAAAASwIAAAAAAAAAAAAASwIAAAAAAABMAgAAAAAAAAAAAABMAgAAAAAAAEwCAAAAAAAAAAAAAEwCAAAAAAAATQIAAAAAAAAAAAAATQIAAAAAAABNAgAAAAAAAAAAAABNAgAAAAAAAE4CAAAAAAAAAAAAAE4CAAAAAAAATgIAAAAAAAAAAAAATgIAAAAAAABPAgAAAAAAAAAAAABPAgAAAAAAAE8CAAAAAAAAAAAAAE4CAAAAAAAATgIAAAAAAAABAAAACk0CAAAAAAAATQIAAAAAAAABAAAACkwCAAAAAAAATAIAAAAAAAABAAAACksCAAAAAAAASwIAAAAAAAABAAAACkoCAAAAAAAASgIAAAAAAAABAAAACkkCAAAAAAAASQIAAAAAAAABAAAACkgCAAAAAAAASAIAAAAAAAABAAAACkcCAAAAAAAARwIAAAAAAAABAAAACkYCAAAAAAAARgIAAAAAAAABAAAACkUCAAAAAAAARQIAAAAAAAABAAAACkQCAAAAAAAARAIAAAAAAAABAAAACkMCAAAAAAAAQwIAAAAAAAABAAAACkICAAAAAAAAQgIAAAAAAAABAAAACkECAAAAAAAAQQIAAAAAAAABAAAACkACAAAAAAAAQAIAAAAAAAABAAAACj8CAAAAAAAAPwIAAAAAAAABAAAACj4CAAAAAAAAPgIAAAAAAAABAAAACj0CAAAAAAAAPQIAAAAAAAABAAAACjwCAAAAAAAAPAIAAAAAAAABAAAACjsCAAAAAAAAOwIAAAAAAAABAAAACjoCAAAAAAAAOgIAAAAAAAABAAAACjkCAAAAAAAAOQIAAAAAAAABAAAACjgCAAAAAAAAOAIAAAAAAAABAAAACjcCAAAAAAAANwIAAAAAAAABAAAACjYCAAAAAAAANgIAAAAAAAABAAAACjUCAAAAAAAANQIAAAAAAAABAAAACjQCAAAAAAAANAIAAAAAAAABAAAACjMCAAAAAAAAMwIAAAAAAAABAAAACjICAAAAAAAAMgIAAAAAAAABAAAACjECAAAAAAAAMQIAAAAAAAABAAAACjACAAAAAAAAMAIAAAAAAAABAAAACi8CAAAAAAAALwIAAAAAAAABAAAACi4CAAAAAAAALgIAAAAAAAABAAAACi0CAAAAAAAALQIAAAAAAAABAAAACiwCAAAAAAAALAIAAAAAAAABAAAACisCAAAAAAAAKwIAAAAAAAABAAAACq8BAAAAAAAArwEAAAAAAAB8AAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAArwEAAAAAAACvAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAsgEAAAAAAAAOAAAAUFMgQzpcZ2xhbmNlPiCyAQAAAAAAACsCAAAAAAAAAAAAALMBAAAAAAAAswEAAAAAAAB4AAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAArwEAAAAAAACvAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAtAEAAAAAAAASAAAAUFMgQzpcZ2xhbmNlPiAgZ28gtAEAAAAAAAArAgAAAAAAAAAAAAC0AQAAAAAAALQBAAAAAAAAdwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAtQEAAAAAAAATAAAAUFMgQzpcZ2xhbmNlPiAgZ28gcrUBAAAAAAAAKwIAAAAAAAAAAAAAtQEAAAAAAAC1AQAAAAAAAHYAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAtAEAAAAAAAC0AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAtgEAAAAAAAAUAAAAUFMgQzpcZ2xhbmNlPiAgZ28gcnW2AQAAAAAAACsCAAAAAAAAAAAAALYBAAAAAAAAtgEAAAAAAAB1AAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAtQEAAAAAAAC1AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"terminus_render",
-					null,
-					"AQAAALYBAAAAAAAAtwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAtgEAAAAAAAC2AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAuAEAAAAAAAAWAAAAUFMgQzpcZ2xhbmNlPiAgZ28gcnVuILgBAAAAAAAAKwIAAAAAAAAAAAAAuAEAAAAAAAC4AQAAAAAAAHMAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAtwEAAAAAAAC3AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					22,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAtgEAAAAAAAAXAAAAUFMgQzpcZ2xhbmNlPiAgZ28gcnVuIC+2AQAAAAAAACsCAAAAAAAAAAAAALcBAAAAAAAAtwEAAAAAAAB0AAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAuAEAAAAAAAC4AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					24,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAKEBAAAAAAAAuAEAAAAAAAAWAAAAUFMgQzpcZ2xhbmNlPiAgZ28gcnVuILgBAAAAAAAAKwIAAAAAAAAAAAAAuAEAAAAAAAC4AQAAAAAAAHMAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAtwEAAAAAAAC3AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					1,
-					"terminus_render",
-					null,
-					"BAAAALgBAAAAAAAAuQEAAAAAAAAAAAAAuQEAAAAAAAC5AQAAAAAAAAAAAAC5AQAAAAAAAEACAAAAAAAAAAAAALkBAAAAAAAAuQEAAAAAAACHAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAAuAEAAAAAAAC4AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					27,
-					1,
-					"terminus_render",
-					null,
-					"BgAAALkBAAAAAAAA8QEAAAAAAAAAAAAA8QEAAAAAAABAAgAAAAAAAAAAAABAAgAAAAAAAEECAAAAAAAAAAAAAEECAAAAAAAAQQIAAAAAAAAAAAAAQQIAAAAAAADIAgAAAAAAAAAAAABBAgAAAAAAAEECAAAAAAAAhwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAuQEAAAAAAAC5AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					29,
-					1,
-					"terminus_render",
-					null,
-					"BgAAAEECAAAAAAAAVwIAAAAAAAAAAAAAVwIAAAAAAADIAgAAAAAAAAAAAADIAgAAAAAAAMkCAAAAAAAAAAAAAMkCAAAAAAAAyQIAAAAAAAAAAAAAyQIAAAAAAABQAwAAAAAAAAAAAADJAgAAAAAAAMkCAAAAAAAAhwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
-					"AQAAAAAAAAABAAAAQQIAAAAAAABBAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA1gIAAAAAAAAAAAAA1gIAAAAAAABQAwAAAAAAAAAAAADXAgAAAAAAANcCAAAAAAAAeQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAAyQIAAAAAAADJAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					32,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA2AIAAAAAAAAOAAAAUFMgQzpcZ2xhbmNlPiDYAgAAAAAAAFADAAAAAAAAAAAAANgCAAAAAAAA2AIAAAAAAAB4AAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA1wIAAAAAAADXAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					34,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA2QIAAAAAAAAPAAAAUFMgQzpcZ2xhbmNlPiBn2QIAAAAAAABQAwAAAAAAAAAAAADZAgAAAAAAANkCAAAAAAAAdwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA2AIAAAAAAADYAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					36,
-					1,
-					"terminus_render",
-					null,
-					"AQAAANkCAAAAAAAA2gIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2QIAAAAAAADZAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					38,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA2wIAAAAAAAARAAAAUFMgQzpcZ2xhbmNlPiBnbyDbAgAAAAAAAFADAAAAAAAAAAAAANsCAAAAAAAA2wIAAAAAAAB1AAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA2gIAAAAAAADaAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					40,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA3AIAAAAAAAASAAAAUFMgQzpcZ2xhbmNlPiBnbyBi3AIAAAAAAABQAwAAAAAAAAAAAADcAgAAAAAAANwCAAAAAAAAdAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA2wIAAAAAAADbAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					42,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA3QIAAAAAAAATAAAAUFMgQzpcZ2xhbmNlPiBnbyBidd0CAAAAAAAAUAMAAAAAAAAAAAAA3QIAAAAAAADdAgAAAAAAAHMAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA3AIAAAAAAADcAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					44,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA3gIAAAAAAAAUAAAAUFMgQzpcZ2xhbmNlPiBnbyBidWneAgAAAAAAAFADAAAAAAAAAAAAAN4CAAAAAAAA3gIAAAAAAAByAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA3QIAAAAAAADdAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAMkCAAAAAAAA3wIAAAAAAAAVAAAAUFMgQzpcZ2xhbmNlPiBnbyBidWls3wIAAAAAAABQAwAAAAAAAAAAAADfAgAAAAAAAN8CAAAAAAAAcQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA3gIAAAAAAADeAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					48,
-					1,
-					"terminus_render",
-					null,
-					"BAAAAN8CAAAAAAAA4AIAAAAAAAAAAAAA4AIAAAAAAADgAgAAAAAAAAAAAADgAgAAAAAAAGcDAAAAAAAAAAAAAOACAAAAAAAA4AIAAAAAAACHAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA3wIAAAAAAADfAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					49,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAOACAAAAAAAA7QIAAAAAAAAAAAAA7QIAAAAAAABnAwAAAAAAAAAAAADuAgAAAAAAAO4CAAAAAAAAeQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAA4AIAAAAAAADgAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					51,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAOACAAAAAAAA9gIAAAAAAAAOAAAAUFMgQzpcZ2xhbmNlPiD2AgAAAAAAAGcDAAAAAAAAAAAAAPYCAAAAAAAA9gIAAAAAAABxAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAA7gIAAAAAAADuAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					53,
-					1,
-					"terminus_render",
-					null,
-					"AQAAAPYCAAAAAAAA9wIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9gIAAAAAAAD2AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					55,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAOACAAAAAAAA+AIAAAAAAAAXAAAAUFMgQzpcZ2xhbmNlPiBnbyBidWlsZCD4AgAAAAAAAGcDAAAAAAAAAAAAAPgCAAAAAAAA+AIAAAAAAABvAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA9wIAAAAAAAD3AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					57,
-					1,
-					"terminus_render",
-					null,
-					"BAAAAPgCAAAAAAAA+QIAAAAAAAAAAAAA+QIAAAAAAAD5AgAAAAAAAAAAAAD5AgAAAAAAAIADAAAAAAAAAAAAAPkCAAAAAAAA+QIAAAAAAACHAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
-					"AQAAAAAAAAABAAAA+AIAAAAAAAD4AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					58,
-					1,
-					"terminus_render",
-					null,
-					"AwAAAPkCAAAAAAAABgMAAAAAAAAAAAAABgMAAAAAAACAAwAAAAAAAAAAAAAHAwAAAAAAAAcDAAAAAAAAeQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
-					"AQAAAAAAAAABAAAA+QIAAAAAAAD5AgAAAAAAAAAAAAAAAPC/"
-				]
-			]
+			}
 		},
 		{
-			"file": "glance.yml",
+			"file": "internal/assets/static/manifest.json",
 			"settings":
 			{
-				"buffer_size": 3058,
-				"encoding": "UTF-8",
+				"buffer_size": 278,
 				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					48,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAMgBAAAAAAAAyQEAAAAAAAAAAAAAyQEAAAAAAADZAQAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADIAQAAAAAAAMgBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					49,
-					3,
-					"left_delete",
-					null,
-					"AwAAANcBAAAAAAAA1wEAAAAAAAACAAAAICDVAQAAAAAAANUBAAAAAAAAAgAAACAg0wEAAAAAAADTAQAAAAAAAAIAAAAgIA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADZAQAAAAAAANkBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					50,
-					1,
-					"paste_and_indent",
-					null,
-					"AQAAANMBAAAAAAAA0gMAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADTAQAAAAAAANMBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					57,
-					1,
-					"left_delete",
-					null,
-					"AQAAAAsDAAAAAAAACwMAAAAAAADIAAAAICAgICAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9rZW4tbW9yZWwtYXBpLnVwLnJhaWx3YXkuYXBwL2NvdW50ZXJzL2dpdGh1Yi1wcm9maWxlL3JlbW92ZS5zdmciIC8+CiAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vc3RhY2tvdmVyZmxvdy5jb20vdXNlcnMvZmxhaXIvMjI3MTkzMDgucG5nP3RoZW1lPWRhcmsmY2FjaGU9MzAwIiAvPgo",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAALAwAAAAAAANMDAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					65,
-					1,
-					"left_delete",
-					null,
-					"AQAAAOABAAAAAAAA4AEAAAAAAAArAQAAICAgICAgICAgICAgc291cmNlOiB8CiAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8va2VuLW1vcmVsLXN0YXRzLnZlcmNlbC5hcHAvYXBpP3VzZXJuYW1lPWtlbi1tb3JlbCZjb3VudF9wcml2YXRlPXRydWUmc2hvd19pY29ucz10cnVlJmluY2x1ZGVfYWxsX2NvbW1pdHM9dHJ1ZSZzaG93PXJldmlld3MsZGlzY3Vzc2lvbnNfc3RhcnRlZCxkaXNjdXNzaW9uc19hbnN3ZXJlZCxwcnNfbWVyZ2VkLHByc19tZXJnZWRfcGVyY2VudGFnZSZ0aGVtZT1ub3JkJmhpZGVfYm9yZGVyPXRydWUmYm9yZGVyX3JhZGl1cz0wIiAvPgo",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADgAQAAAAAAAAsDAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					68,
-					1,
-					"left_delete",
-					null,
-					"AQAAAMkBAAAAAAAAyQEAAAAAAAAXAAAAICAgICAgICAgIC0gdHlwZTogaHRtbAo",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADJAQAAAAAAAOABAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					79,
-					2,
-					"left_delete",
-					null,
-					"AgAAACABAAAAAAAAIAEAAAAAAAABAAAANB8BAAAAAAAAHwEAAAAAAAABAAAAMg",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAhAQAAAAAAACEBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					80,
-					1,
-					"insert",
-					{
-						"characters": "12"
-					},
-					"AgAAAB8BAAAAAAAAIAEAAAAAAAAAAAAAIAEAAAAAAAAhAQAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAfAQAAAAAAAB8BAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAP0IAAAAAAAA/ggAAAAAAAAAAAAA/ggAAAAAAAAMCQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA/QgAAAAAAAD9CAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					2,
-					"left_delete",
-					null,
-					"AgAAAAoJAAAAAAAACgkAAAAAAAACAAAAICAICQAAAAAAAAgJAAAAAAAAAgAAACAg",
-					"AQAAAAAAAAABAAAADAkAAAAAAAAMCQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"paste_and_indent",
-					null,
-					"AQAAAAgJAAAAAAAApw0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACAkAAAAAAAAICQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					5,
-					"left_delete",
-					null,
-					"BQAAAMEJAAAAAAAAwQkAAAAAAAABAAAAbsAJAAAAAAAAwAkAAAAAAAABAAAAb78JAAAAAAAAvwkAAAAAAAABAAAAer4JAAAAAAAAvgkAAAAAAAABAAAAYb0JAAAAAAAAvQkAAAAAAAABAAAAbQ",
-					"AQAAAAAAAAABAAAAwgkAAAAAAADCCQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"left_delete",
-					null,
-					"AQAAALwJAAAAAAAAvAkAAAAAAAABAAAAQQ",
-					"AQAAAAAAAAABAAAAvQkAAAAAAAC9CQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": "stack"
-					},
-					"BQAAALwJAAAAAAAAvQkAAAAAAAAAAAAAvQkAAAAAAAC+CQAAAAAAAAAAAAC+CQAAAAAAAL8JAAAAAAAAAAAAAL8JAAAAAAAAwAkAAAAAAAAAAAAAwAkAAAAAAADBCQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAvAkAAAAAAAC8CQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"left_delete",
-					null,
-					"AQAAAKoMAAAAAAAAqgwAAAAAAABTAAAAICAgICAgICAgICAgICAgICAgLSB0aXRsZTogUmVkZGl0CiAgICAgICAgICAgICAgICAgICAgdXJsOiBodHRwczovL3d3dy5yZWRkaXQuY29tLwo",
-					"AQAAAAAAAAABAAAAqgwAAAAAAAD9DAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					35,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPsMAAAAAAAA+wwAAAAAAABZAAAAICAgICAgICAgICAgICAgICAgLSB0aXRsZTogSW5zdGFncmFtCiAgICAgICAgICAgICAgICAgICAgdXJsOiBodHRwczovL3d3dy5pbnN0YWdyYW0uY29tLwo",
-					"AQAAAAAAAAABAAAA+wwAAAAAAABUDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					40,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPgLAAAAAAAA+AsAAAAAAABcAAAAICAgICAgICAgICAgICAgICAgLSB0aXRsZTogUHJpbWUgVmlkZW8KICAgICAgICAgICAgICAgICAgICB1cmw6IGh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tLwo",
-					"AQAAAAAAAAABAAAA+AsAAAAAAABUDAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					45,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEsLAAAAAAAASwsAAAAAAABYAAAAICAgICAgICAgICAgICAgICAgLSB0aXRsZTogRGlzbmV5KwogICAgICAgICAgICAgICAgICAgIHVybDogaHR0cHM6Ly93d3cuZGlzbmV5cGx1cy5jb20vCg",
-					"AQAAAAAAAAABAAAASwsAAAAAAACjCwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					50,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPYKAAAAAAAA9goAAAAAAABVAAAAICAgICAgICAgICAgICAgICAgLSB0aXRsZTogTmV0ZmxpeAogICAgICAgICAgICAgICAgICAgIHVybDogaHR0cHM6Ly93d3cubmV0ZmxpeC5jb20vCg",
-					"AQAAAAAAAAABAAAA9goAAAAAAABLCwAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "docs/configuration.md",
-			"settings":
-			{
-				"buffer_size": 41812,
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"file": "internal/feed/monitor.go",
-			"settings":
-			{
-				"buffer_size": 1380,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					27,
-					1,
-					"gotools_format",
-					null,
-					"AQAAAAAAAAAAAAAAZAUAAAAAAABkBQAAcGFja2FnZSBmZWVkCgppbXBvcnQgKAoJImNvbnRleHQiCgkiZXJyb3JzIgoJIm5ldC9odHRwIgoJInRpbWUiCikKCnR5cGUgU2l0ZVN0YXR1c1JlcXVlc3Qgc3RydWN0IHsKCVVSTCAgICAgICAgICAgc3RyaW5nIGB5YW1sOiJ1cmwiYAoJQWxsb3dJbnNlY3VyZSBib29sICAgYHlhbWw6ImFsbG93LWluc2VjdXJlImAKfQoKdHlwZSBTaXRlU3RhdHVzIHN0cnVjdCB7CglDb2RlICAgICAgICAgaW50CglUaW1lZE91dCAgICAgYm9vbAoJUmVzcG9uc2VUaW1lIHRpbWUuRHVyYXRpb24KCUVycm9yICAgICAgICBlcnJvcgp9CgpmdW5jIGdldFNpdGVTdGF0dXNUYXNrKHN0YXR1c1JlcXVlc3QgKlNpdGVTdGF0dXNSZXF1ZXN0KSAoU2l0ZVN0YXR1cywgZXJyb3IpIHsKCXJlcXVlc3QsIGVyciA6PSBodHRwLk5ld1JlcXVlc3QoaHR0cC5NZXRob2RHZXQsIHN0YXR1c1JlcXVlc3QuVVJMLCBuaWwpCgoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIFNpdGVTdGF0dXN7CgkJCUVycm9yOiBlcnIsCgkJfSwgbmlsCgl9CgoJY3R4LCBjYW5jZWwgOj0gY29udGV4dC5XaXRoVGltZW91dChjb250ZXh0LkJhY2tncm91bmQoKSwgdGltZS5TZWNvbmQqMykKCWRlZmVyIGNhbmNlbCgpCglyZXF1ZXN0ID0gcmVxdWVzdC5XaXRoQ29udGV4dChjdHgpCglyZXF1ZXN0U2VudEF0IDo9IHRpbWUuTm93KCkKCXZhciByZXNwb25zZSAqaHR0cC5SZXNwb25zZQoKCWlmICFzdGF0dXNSZXF1ZXN0LkFsbG93SW5zZWN1cmUgewoJCXJlc3BvbnNlLCBlcnIgPSBkZWZhdWx0Q2xpZW50LkRvKHJlcXVlc3QpCgl9IGVsc2UgewoJCXJlc3BvbnNlLCBlcnIgPSBkZWZhdWx0SW5zZWN1cmVDbGllbnQuRG8ocmVxdWVzdCkKCX0KCglzdGF0dXMgOj0gU2l0ZVN0YXR1c3tSZXNwb25zZVRpbWU6IHRpbWUuU2luY2UocmVxdWVzdFNlbnRBdCl9CgoJaWYgZXJyICE9IG5pbCB7CgkJaWYgZXJyb3JzLklzKGVyciwgY29udGV4dC5EZWFkbGluZUV4Y2VlZGVkKSB7CgkJCXN0YXR1cy5UaW1lZE91dCA9IHRydWUKCQl9CgoJCXN0YXR1cy5FcnJvciA9IGVycgoJCXJldHVybiBzdGF0dXMsIG5pbAoJfQoKCWRlZmVyIHJlc3BvbnNlLkJvZHkuQ2xvc2UoKQoKCXN0YXR1cy5Db2RlID0gcmVzcG9uc2UuU3RhdHVzQ29kZQoKCXJldHVybiBzdGF0dXMsIG5pbAp9CgpmdW5jIEZldGNoU3RhdHVzRm9yU2l0ZXMocmVxdWVzdHMgW10qU2l0ZVN0YXR1c1JlcXVlc3QpIChbXVNpdGVTdGF0dXMsIGVycm9yKSB7Cglqb2IgOj0gbmV3Sm9iKGdldFNpdGVTdGF0dXNUYXNrLCByZXF1ZXN0cykud2l0aFdvcmtlcnMoMjApCglyZXN1bHRzLCBfLCBlcnIgOj0gd29ya2VyUG9vbERvKGpvYikKCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCglyZXR1cm4gcmVzdWx0cywgbmlsCn0K",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOBQAAAAAAAGEFAAAAAAAAAAAAAAAA8L8"
-				]
-			]
+			}
 		}
 	],
 	"build_system": "",
@@ -1123,14 +655,20 @@
 	"expanded_folders":
 	[
 		"/C/glance",
-		"/C/glance/docs"
+		"/C/glance/internal",
+		"/C/glance/internal/assets",
+		"/C/glance/internal/assets/static",
+		"/C/glance/internal/assets/templates"
 	],
 	"file_history":
 	[
+		"/C/glance/internal/feed/monitor.go",
+		"/C/glance/glance.yml",
+		"/C/glance/internal/assets/templates/document.html",
+		"/C/glance/ststs.html",
 		"/C/glance/internal/feed/polygon.go",
 		"/C/glance/codes.txt",
 		"/C/Sbook/sbook/settings.py",
-		"/C/glance/internal/feed/monitor.go",
 		"/C/glance/internal/feed/requests.go",
 		"/C/glance/internal/feed/yahoo.go",
 		"/C/glance/internal/feed/youtube.go",
@@ -1141,7 +679,6 @@
 		"/C/glance/go.mod",
 		"/C/glance/Dockerfile",
 		"/C/glance/docs/configuration.md",
-		"/C/glance/glance.yml",
 		"/C/glance/Dockerfile.single-platform",
 		"/C/example/hello/hello.go",
 		"/C/go-test/server/main.go",
@@ -1287,19 +824,18 @@
 			[
 				{
 					"buffer": 0,
-					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 775,
+						"buffer_size": 6803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								6803,
+								6803
 							]
 						],
 						"settings":
@@ -1372,44 +908,11 @@
 							"terminus_view.natural_keyboard": true,
 							"terminus_view.reactivable": true,
 							"terminus_view.tag": null,
-							"terminus_view.viewport_y": 0.0,
+							"terminus_view.viewport_y": 150.0,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "glance.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2444,
-								2444
-							]
-						],
-						"settings":
-						{
-							"rainbow_checked": true,
-							"show_line_column": "disabled",
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1168.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1417,68 +920,83 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "docs/configuration.md",
+					"buffer": 1,
+					"file": "internal/assets/static/manifest.json",
+					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 41812,
+						"buffer_size": 278,
 						"regions":
 						{
+							"rb_l0_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										0,
+										1
+									],
+									[
+										276,
+										277
+									]
+								],
+								"scope": "JSON.l0.rb"
+							},
+							"rb_l1_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										141,
+										142
+									],
+									[
+										274,
+										275
+									]
+								],
+								"scope": "JSON.l1.rb"
+							},
+							"rb_l2_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										151,
+										152
+									],
+									[
+										268,
+										269
+									]
+								],
+								"scope": "JSON.l2.rb"
+							}
 						},
 						"selection":
 						[
 							[
-								33820,
-								32937
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"rainbow_checked": true,
-							"show_line_column": "disabled",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 30656.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "internal/feed/monitor.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1358,
-								1377
-							]
-						],
-						"settings":
-						{
-							"rainbow_checked": true,
-							"show_line_column": "disabled",
-							"syntax": "Packages/Go/Go.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 33.0,
-						"translation.y": 1233.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
