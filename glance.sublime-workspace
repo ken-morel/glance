@@ -248,22 +248,55 @@
 	"buffers":
 	[
 		{
-			"contents": "Windows PowerShell                                                                                                                     \nCopyright (C) 2014 Microsoft Corporation. All rights reserved.                                                                         \n                                                                                                                                       \nPS C:\\glance> go run .                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:11:57 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:39:06 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:39:32 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:40:28 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:48:47 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:54:08 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:58:23 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 19:59:45 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:02:38 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:04:50 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \nfailed parsing config file: missing source for iframe                                                                                  \nexit status 1                                                                                                                          \ngo: remove C:\\Users\\CHEFSE~1\\AppData\\Local\\Temp\\go-build2510996954\\b001\\exe\\glance.exe: The process cannot access the file because it i​‌​\ns being used by another process.                                                                                                       \nPS C:\\glance> go run .                                                                                                                 \nfailed parsing config file: missing source for iframe                                                                                  \nexit status 1                                                                                                                          \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:12:26 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:14:05 INFO Starting server host=\"\" port=80                                                                               \nexit status 0xc000013a                                                                                                                 \nPS C:\\glance> go run .                                                                                                                 \n2024/06/07 20:22:17 INFO Starting server host=\"\" port=80                                                                               \n",
+			"contents": "Windows PowerShell                                                                                                                     \nCopyright (C) 2014 Microsoft Corporation. All rights reserved.                                                                         \n                                                                                                                                       \nPS C:\\glance> ",
 			"settings":
 			{
-				"buffer_size": 6803,
+				"buffer_size": 422,
 				"line_ending": "Windows",
 				"name": "Windows PowerShell",
 				"scratch": true
-			}
-		},
-		{
-			"file": "internal/assets/static/manifest.json",
-			"settings":
-			{
-				"buffer_size": 278,
-				"line_ending": "Windows"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					2,
+					1,
+					"terminus_activate",
+					{
+						"auto_close": true,
+						"cancellable": false,
+						"cmd":
+						[
+							"powershell.exe"
+						],
+						"cwd": "C:\\glance",
+						"default_title": "PowerShell",
+						"env":
+						{
+							"TERMINUS_SUBLIME": "1",
+							"TERM_PROGRAM": "Terminus-Sublime"
+						},
+						"file_regex": null,
+						"line_regex": null,
+						"panel_name": "Terminus",
+						"reactivable": true,
+						"show_in_panel": null,
+						"tag": null,
+						"timeit": false,
+						"title": null
+					},
+					"AQAAAAAAAAAAAAAAAAAAAAAAAACZGgAAV2luZG93cyBQb3dlclNoZWxsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCkNvcHlyaWdodCAoQykgMjAxNCBNaWNyb3NvZnQgQ29ycG9yYXRpb24uIEFsbCByaWdodHMgcmVzZXJ2ZWQuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKUFMgQzpcZ2xhbmNlPiBnbyBydW4gLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjExOjU3IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjM5OjA2IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjM5OjMyIElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjQwOjI4IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjQ4OjQ3IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjU0OjA4IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjU4OjIzIElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDE5OjU5OjQ1IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDIwOjAyOjM4IElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAoyMDI0LzA2LzA3IDIwOjA0OjUwIElORk8gU3RhcnRpbmcgc2VydmVyIGhvc3Q9IiIgcG9ydD04MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMHhjMDAwMDEzYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgClBTIEM6XGdsYW5jZT4gZ28gcnVuIC4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApmYWlsZWQgcGFyc2luZyBjb25maWcgZmlsZTogbWlzc2luZyBzb3VyY2UgZm9yIGlmcmFtZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKZXhpdCBzdGF0dXMgMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCmdvOiByZW1vdmUgQzpcVXNlcnNcQ0hFRlNFfjFcQXBwRGF0YVxMb2NhbFxUZW1wXGdvLWJ1aWxkMjUxMDk5Njk1NFxiMDAxXGV4ZVxnbGFuY2UuZXhlOiBUaGUgcHJvY2VzcyBjYW5ub3QgYWNjZXNzIHRoZSBmaWxlIGJlY2F1c2UgaXQgaeKAi+KAjOKAiwpzIGJlaW5nIHVzZWQgYnkgYW5vdGhlciBwcm9jZXNzLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKUFMgQzpcZ2xhbmNlPiBnbyBydW4gLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCmZhaWxlZCBwYXJzaW5nIGNvbmZpZyBmaWxlOiBtaXNzaW5nIHNvdXJjZSBmb3IgaWZyYW1lICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApleGl0IHN0YXR1cyAxICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKUFMgQzpcZ2xhbmNlPiBnbyBydW4gLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCjIwMjQvMDYvMDcgMjA6MTI6MjYgSU5GTyBTdGFydGluZyBzZXJ2ZXIgaG9zdD0iIiBwb3J0PTgwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApleGl0IHN0YXR1cyAweGMwMDAwMTNhICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKUFMgQzpcZ2xhbmNlPiBnbyBydW4gLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCjIwMjQvMDYvMDcgMjA6MTQ6MDUgSU5GTyBTdGFydGluZyBzZXJ2ZXIgaG9zdD0iIiBwb3J0PTgwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIApleGl0IHN0YXR1cyAweGMwMDAwMTNhICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKUFMgQzpcZ2xhbmNlPiBnbyBydW4gLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCjIwMjQvMDYvMDcgMjA6MjI6MTcgSU5GTyBTdGFydGluZyBzZXJ2ZXIgaG9zdD0iIiBwb3J0PTgwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo",
+					"AQAAAAAAAAABAAAAkxoAAAAAAACTGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					3,
+					"terminus_render",
+					null,
+					"iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAGwAAAAAAAAAAAAAAGwAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAAoAAAAAAAAACgAAAAAAAAAAAAAACcAAAAAAAAAJwAAAAAAAAABAAAACiYAAAAAAAAAJgAAAAAAAAABAAAACiUAAAAAAAAAJQAAAAAAAAABAAAACiQAAAAAAAAAJAAAAAAAAAABAAAACiMAAAAAAAAAIwAAAAAAAAABAAAACiIAAAAAAAAAIgAAAAAAAAABAAAACiEAAAAAAAAAIQAAAAAAAAABAAAACiAAAAAAAAAAIAAAAAAAAAABAAAACh8AAAAAAAAAHwAAAAAAAAABAAAACh4AAAAAAAAAHgAAAAAAAAABAAAACh0AAAAAAAAAHQAAAAAAAAABAAAAChwAAAAAAAAAHAAAAAAAAAABAAAAChsAAAAAAAAAGwAAAAAAAAABAAAAChoAAAAAAAAAGgAAAAAAAAABAAAAChkAAAAAAAAAGQAAAAAAAAABAAAAChgAAAAAAAAAGAAAAAAAAAABAAAAChcAAAAAAAAAFwAAAAAAAAABAAAAChYAAAAAAAAAFgAAAAAAAAABAAAAChUAAAAAAAAAFQAAAAAAAAABAAAAChQAAAAAAAAAFAAAAAAAAAABAAAAChMAAAAAAAAAEwAAAAAAAAABAAAAChIAAAAAAAAAEgAAAAAAAAABAAAAChEAAAAAAAAAEQAAAAAAAAABAAAAChAAAAAAAAAAEAAAAAAAAAABAAAACg8AAAAAAAAADwAAAAAAAAABAAAACg4AAAAAAAAADgAAAAAAAAABAAAACg0AAAAAAAAADQAAAAAAAAABAAAACgwAAAAAAAAADAAAAAAAAAABAAAACgsAAAAAAAAACwAAAAAAAAABAAAACgoAAAAAAAAACgAAAAAAAAABAAAACgkAAAAAAAAACQAAAAAAAAABAAAACggAAAAAAAAACAAAAAAAAAABAAAACgcAAAAAAAAABwAAAAAAAAABAAAACgYAAAAAAAAABgAAAAAAAAABAAAACgUAAAAAAAAABQAAAAAAAAABAAAACgQAAAAAAAAABAAAAAAAAAABAAAACgMAAAAAAAAAAwAAAAAAAAABAAAACgIAAAAAAAAAAgAAAAAAAAABAAAACgEAAAAAAAAAAQAAAAAAAAABAAAACgAAAAAAAAAAAAAAAAAAAAABAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAACHAAAAAAAAAAAAAACHAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAxgAAAAAAAAAAAAAAxgAAAAAAAAAPAQAAAAAAAAAAAAAPAQAAAAAAABABAAAAAAAAAAAAABABAAAAAAAAEAEAAAAAAAAAAAAAEAEAAAAAAACXAQAAAAAAAAAAAACXAQAAAAAAAJgBAAAAAAAAAAAAAJgBAAAAAAAApQEAAAAAAAAAAAAApQEAAAAAAAAfAgAAAAAAAAAAAACmAQAAAAAAAKYBAAAAAAAAeQAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -824,18 +857,19 @@
 			[
 				{
 					"buffer": 0,
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6803,
+						"buffer_size": 422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6803,
-								6803
+								422,
+								422
 							]
 						],
 						"settings":
@@ -908,89 +942,8 @@
 							"terminus_view.natural_keyboard": true,
 							"terminus_view.reactivable": true,
 							"terminus_view.tag": null,
-							"terminus_view.viewport_y": 150.0,
+							"terminus_view.viewport_y": 0.0,
 							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "internal/assets/static/manifest.json",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 278,
-						"regions":
-						{
-							"rb_l0_JSON":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										1
-									],
-									[
-										276,
-										277
-									]
-								],
-								"scope": "JSON.l0.rb"
-							},
-							"rb_l1_JSON":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										141,
-										142
-									],
-									[
-										274,
-										275
-									]
-								],
-								"scope": "JSON.l1.rb"
-							},
-							"rb_l2_JSON":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										151,
-										152
-									],
-									[
-										268,
-										269
-									]
-								],
-								"scope": "JSON.l2.rb"
-							}
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"rainbow_checked": true,
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
