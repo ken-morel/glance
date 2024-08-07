@@ -1,10 +1,11 @@
-package handler
- 
+package main
+
 import (
-  "fmt"
-  "net/http"
+	"os"
+
+	"github.com/glanceapp/glance/internal/glance"
 )
- 
-func Handler(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, "<h1>Hello from Go!</h1>")
+
+func main() {
+	os.Exit(glance.Main())
 }
