@@ -17,7 +17,7 @@ RUN go build -o myapp .
 FROM alpine:latest  
 
 # Copy the compiled binary from the builder stage 
-COPY /app/glance.yml /myapp
+COPY ./glance.yml /myapp
 COPY --from=builder /app/myapp /myapp  
 WORKDIR /app
 # Command to run the binary  
