@@ -1,31 +1,26 @@
-# First stage: build the Go application  
-FROM golang:1.20-alpine AS builder  
+# Use the official Golang image with a compatible version  
+FROM golang:1.22-alpine AS builder  
 
-ARG TARGETOS  
-ARG TARGETARCH  
-ARG TARGETVARIANT  
-
+# Set the working directory  
 WORKDIR /app  
 
-# Copy the Go module files  
+# Copy go.mod and go.sum files  
 COPY go.mod go.sum ./  
 
-# Download dependencies  
+# Download the dependencies  
 RUN go mod download  
 
 # Copy the source code  
 COPY . .  
 
-# Build the "glance" application  
-RUN CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH GOARM=$TARGETVARIANT go build -o /glance .  
+# Build the Go application  
+RUN go build -o myapp .  
 
-# Final stage: create the runtime image  
-FROM alpine:3.20  
+# Final image stage  
+FROM alpine:latest  
 
-WORKDIR /app  
+# Copy the compiled binary from the builder stage  
+COPY --from=builder /app/myapp /myapp  
 
-# Copy the built application from the builder stage  
-COPY --from=builder /glance /glance  
-
-EXPOSE 8080/tcp  
-ENTRYPOINT ["/glance"]
+# Command to run the binary  
+ENTRYPOINT ["/myapp"]
