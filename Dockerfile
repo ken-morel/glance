@@ -2,25 +2,22 @@
 FROM golang:1.22-alpine AS builder  
 
 # Set the working directory  
-RUN ls
 WORKDIR /app  
 
 # Copy go.mod and go.sum files  
 COPY go.mod go.sum ./  
-RUN ls
 # Download the dependencies  
 RUN go mod download  
 
 # Copy the source code  
 COPY . .  
-RUN ls
 # Build the Go application
 RUN go build -o myapp .  
-RUN ls
 # Final image stage  
 FROM alpine:latest  
 
-# Copy the compiled binary from the builder stage  
+# Copy the compiled binary from the builder stage 
+COPY /app/glance.yml /myapp
 COPY --from=builder /app/myapp /myapp  
 COPY glance.yml /myapp
 # Command to run the binary  
