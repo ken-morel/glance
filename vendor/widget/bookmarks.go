@@ -3,7 +3,7 @@ package widget
 import (
 	"html/template"
 
-	"github.com/glanceapp/glance/vendor/assets"
+	"github.com/glanceapp/glance/intern/assets"
 )
 
 type Bookmarks struct {

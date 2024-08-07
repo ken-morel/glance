@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/glanceapp/glance/vendor/assets"
-	"github.com/glanceapp/glance/vendor/feed"
+	"github.com/glanceapp/glance/intern/assets"
+	"github.com/glanceapp/glance/intern/feed"
 )
 
 type Reddit struct {

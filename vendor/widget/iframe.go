@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"net/url"
 
-	"github.com/glanceapp/glance/vendor/assets"
+	"github.com/glanceapp/glance/intern/assets"
 )
 
 type IFrame struct {

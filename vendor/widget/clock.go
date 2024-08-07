@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/glanceapp/glance/vendor/assets"
+	"github.com/glanceapp/glance/intern/assets"
 )
 
 type Clock struct {
