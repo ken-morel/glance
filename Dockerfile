@@ -5,7 +5,7 @@ FROM golang:1.22-alpine AS builder
 WORKDIR /app  
 
 # Copy go.mod and go.sum files  
-COPY go.mod go.sum /glance.yml ./  
+COPY go.mod go.sum ./  
 
 # Download the dependencies  
 RUN go mod download  
@@ -21,6 +21,6 @@ FROM alpine:latest
 
 # Copy the compiled binary from the builder stage  
 COPY --from=builder /app/myapp /myapp  
-
+COPY /app/glance.yml /myapp
 # Command to run the binary  
 ENTRYPOINT ["/myapp"]
