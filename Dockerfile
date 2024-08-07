@@ -19,6 +19,6 @@ FROM alpine:latest
 # Copy the compiled binary from the builder stage 
 #COPY glance.yml /myapp
 COPY --from=builder /app/myapp /myapp  
-WORKDIR /app
+WORKDIR /
 # Command to run the binary  
 ENTRYPOINT ["/myapp"]
