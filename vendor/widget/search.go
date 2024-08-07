@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/glanceapp/glance/internal/assets"
+	"github.com/glanceapp/glance/vendor/assets"
 )
 
 type SearchBang struct {

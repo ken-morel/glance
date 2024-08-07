@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/glanceapp/glance/internal/assets"
-	"github.com/glanceapp/glance/internal/feed"
+	"github.com/glanceapp/glance/vendor/assets"
+	"github.com/glanceapp/glance/vendor/feed"
 )
 
 type Lobsters struct {

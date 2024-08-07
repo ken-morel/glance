@@ -3,7 +3,7 @@ package handler
 import (
 	// "context"
 	"fmt"
-	"github.com/glanceapp/glance/internal/glance"
+	"github.com/glanceapp/glance/vendor/glance"
 	"net/http"
 	"os"
 )

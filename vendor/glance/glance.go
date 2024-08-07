@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/glanceapp/glance/internal/assets"
-	"github.com/glanceapp/glance/internal/widget"
+	"github.com/glanceapp/glance/vendor/assets"
+	"github.com/glanceapp/glance/vendor/widget"
 )
 
 var buildVersion = "dev"
