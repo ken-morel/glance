@@ -5,7 +5,7 @@ FROM golang:1.22-alpine AS builder
 WORKDIR /app  
 
 # Copy go.mod and go.sum files  
-COPY go.mod go.sum ./  
+COPY go.mod go.sum glance.yml ./  
 
 # Download the dependencies  
 RUN go mod download  
