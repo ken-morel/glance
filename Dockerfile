@@ -2,7 +2,7 @@
 FROM golang:1.22-alpine AS builder  
 
 # Set the working directory
-COPY ./glance.yml ./ || COPY /glance.yml ./ 
+COPY /glance.yml ./
 WORKDIR /app  
 
 # Copy go.mod and go.sum files  
