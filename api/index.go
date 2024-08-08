@@ -1,16 +1,16 @@
 package handler
 
 import (
-  // "context"
-  "fmt"
-  "github.com/glanceapp/glance/intern/assets"
-  "github.com/glanceapp/glance/intern/glance"
-  "gopkg.in/yaml.v3"
-  "log/slog"
-  "net/http"
-  // "os"
-  "path/filepath"
-  "time"
+	// "context"
+	"fmt"
+	"github.com/glanceapp/glance/intern/assets"
+	"github.com/glanceapp/glance/intern/glance"
+	"gopkg.in/yaml.v3"
+	"log/slog"
+	"net/http"
+	// "os"
+	"path/filepath"
+	"time"
 )
 
 var yamlConfig = `server:
@@ -150,72 +150,72 @@ var serverCreated bool
 var mux *http.ServeMux
 
 func GetConfig() (*glance.Config, error) {
-  config := glance.NewConfig()
+	config := glance.NewConfig()
 
-  err := yaml.Unmarshal([]byte(yamlConfig), config)
+	err := yaml.Unmarshal([]byte(yamlConfig), config)
 
-  if err != nil {
-    return nil, err
-  }
+	if err != nil {
+		return nil, err
+	}
 
-  // if err = glance.configIsValid(config); err != nil {
-  //  return nil, err
-  // }
+	// if err = glance.configIsValid(config); err != nil {
+	// 	return nil, err
+	// }
 
-  return config, nil
+	return config, nil
 }
 
 func GetServer() int {
-  config, err := GetConfig()
+	config, err := GetConfig()
 
-  if err != nil {
-    fmt.Printf("failed parsing config file: %v\n", err)
-    return 1
-  }
-  app, err := glance.NewApplication(config)
+	if err != nil {
+		fmt.Printf("failed parsing config file: %v\n", err)
+		return 1
+	}
+	app, err := glance.NewApplication(config)
 
-  if err != nil {
-    fmt.Printf("failed creating application: %v\n", err)
-    return 1
-  }
-  mux, err = MuxServer(app)
-  if err != nil {
-    fmt.Printf("http server error: %v\n", err)
-    return 1
-  }
-  return 0
+	if err != nil {
+		fmt.Printf("failed creating application: %v\n", err)
+		return 1
+	}
+	mux, err = MuxServer(app)
+	if err != nil {
+		fmt.Printf("http server error: %v\n", err)
+		return 1
+	}
+	return 0
 }
 func Handler(w http.ResponseWriter, r *http.Request) {
-  if !serverCreated {
-    GetServer()
-    serverCreated = true
-  }
-  mux.ServeHTTP(w, r)
+	if !serverCreated {
+		GetServer()
+		serverCreated = true
+	}
+	mux.ServeHTTP(w, r)
 }
 
 func MuxServer(a *glance.Application) (*http.ServeMux, error) {
-  // TODO: add gzip support, static files must have their gzipped contents cached
-  // TODO: add HTTPS support
-  mux := http.NewServeMux()
+	// TODO: add gzip support, static files must have their gzipped contents cached
+	// TODO: add HTTPS support
+	mux := http.NewServeMux()
 
-  mux.HandleFunc("GET /{$}", a.HandlePageRequest)
-  mux.HandleFunc("GET /{page}", a.HandlePageRequest)
-  mux.HandleFunc("GET /api/pages/{page}/content/{$}", a.HandlePageContentRequest)
-  mux.Handle("GET /static/{path...}", http.StripPrefix("/static/", glance.FileServerWithCache(http.FS(assets.PublicFS), 2*time.Hour)))
+	mux.HandleFunc("GET /api/{$}", a.HandlePageRequest)
+	mux.HandleFunc("GET /api/{page}", a.HandlePageRequest)
+	mux.HandleFunc("GET /api/pages/{page}/content/{$}", a.HandlePageContentRequest)
+	mux.Handle("GET /api/static/{path...}", http.StripPrefix("/static/", glance.FileServerWithCache(http.FS(assets.PublicFS), 2*time.Hour)))
 
-  if a.Config.Server.AssetsPath != "" {
-    absAssetsPath, err := filepath.Abs(a.Config.Server.AssetsPath)
+	if a.Config.Server.AssetsPath != "" {
+		absAssetsPath, err := filepath.Abs(a.Config.Server.AssetsPath)
 
-    if err != nil {
-      return mux, fmt.Errorf("invalid assets path: %s", a.Config.Server.AssetsPath)
-    }
+		if err != nil {
+			return mux, fmt.Errorf("invalid assets path: %s", a.Config.Server.AssetsPath)
+		}
 
-    slog.Info("Serving assets", "path", absAssetsPath)
-    assetsFS := glance.FileServerWithCache(http.Dir(a.Config.Server.AssetsPath), 2*time.Hour)
-    mux.Handle("/assets/{path...}", http.StripPrefix("/assets/", assetsFS))
-  }
-  a.Config.Server.StartedAt = time.Now()
+		slog.Info("Serving assets", "path", absAssetsPath)
+		assetsFS := glance.FileServerWithCache(http.Dir(a.Config.Server.AssetsPath), 2*time.Hour)
+		mux.Handle("/assets/{path...}", http.StripPrefix("/assets/", assetsFS))
+	}
+	a.Config.Server.StartedAt = time.Now()
 
-  slog.Info("Created mux server server", "host", a.Config.Server.Host, "port", a.Config.Server.Port)
-  return mux, nil
+	slog.Info("Created mux server server", "host", a.Config.Server.Host, "port", a.Config.Server.Port)
+	return mux, nil
 }
