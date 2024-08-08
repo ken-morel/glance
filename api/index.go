@@ -4,6 +4,7 @@ import (
 	// "context"
 	"fmt"
 	"github.com/glanceapp/glance/intern/assets"
+	"github.com/glanceapp/glance/intern/config"
 	"github.com/glanceapp/glance/intern/glance"
 	"gopkg.in/yaml.v3"
 	"log/slog"
@@ -149,16 +150,16 @@ pages:
 var serverCreated bool
 var mux *http.ServeMux
 
-func GetConfig() {
+func GetConfig() (config.Config, nil) {
 	config := glance.NewConfig()
 
-	err = yaml.Unmarshal(yamlConfig, config)
+	err := []byte(yaml.Unmarshal(yamlConfig, config))
 
 	if err != nil {
 		return nil, err
 	}
 
-	if err = glance.configIsValid(config); err != nil {
+	if err = config.configIsValid(config); err != nil {
 		return nil, err
 	}
 
@@ -166,7 +167,7 @@ func GetConfig() {
 }
 
 func GetServer() int {
-	config, err := GetConfig(configFile)
+	config, err := GetConfig()
 
 	if err != nil {
 		fmt.Printf("failed parsing config file: %v\n", err)
