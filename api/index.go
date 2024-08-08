@@ -8,7 +8,7 @@ import (
 	"gopkg.in/yaml.v3"
 	"log/slog"
 	"net/http"
-	"os"
+	// "os"
 	"path/filepath"
 	"time"
 )
@@ -149,18 +149,18 @@ pages:
 var serverCreated bool
 var mux *http.ServeMux
 
-func GetConfig() (glance.Config, nil) {
+func GetConfig() (*glance.Config, error) {
 	config := glance.NewConfig()
 
-	err := []byte(yaml.Unmarshal(yamlConfig, config))
+	err := yaml.Unmarshal([]byte(yamlConfig, config))
 
 	if err != nil {
 		return nil, err
 	}
 
-	if err = glance.configIsValid(config); err != nil {
-		return nil, err
-	}
+	// if err = glance.configIsValid(config); err != nil {
+	// 	return nil, err
+	// }
 
 	return config, nil
 }
