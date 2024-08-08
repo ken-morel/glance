@@ -201,7 +201,7 @@ func MuxServer(a *glance.Application) (*http.ServeMux, error) {
   mux.HandleFunc("GET /api/{$}", a.HandlePageRequest)
   mux.HandleFunc("GET /api/{page}", a.HandlePageRequest)
   mux.HandleFunc("GET /api/pages/{page}/content/{$}", a.HandlePageContentRequest)
-  mux.Handle("GET /static/{path...}", http.StripPrefix("/static/", glance.FileServerWithCache(http.FS(assets.PublicFS), 2*time.Hour)))
+  mux.Handle("GET /api/static/{path...}", http.StripPrefix("/static/", glance.FileServerWithCache(http.FS(assets.PublicFS), 2*time.Hour)))
 
   if a.Config.Server.AssetsPath != "" {
     absAssetsPath, err := filepath.Abs(a.Config.Server.AssetsPath)
