@@ -1,11 +1,11 @@
 package main
 
 import (
-	"os"
-
-	"github.com/glanceapp/glance/intern/glance"
+	"fmt"
+	"github.com/glanceapp/glance/api"
 )
 
 func main() {
-	os.Exit(glance.Main())
+	handler.GetServer()
+	fmt.Println("done")
 }
