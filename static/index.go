@@ -1,4 +1,4 @@
-package handler
+package static
 
 import (
   // "context"
