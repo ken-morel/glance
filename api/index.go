@@ -152,7 +152,7 @@ var mux *http.ServeMux
 func GetConfig() (*glance.Config, error) {
 	config := glance.NewConfig()
 
-	err := yaml.Unmarshal([]byte(yamlConfig, config))
+	err := yaml.Unmarshal([]byte(yamlConfig), config)
 
 	if err != nil {
 		return nil, err
