@@ -221,30 +221,3 @@ func (a *Application) Serve() error {
 	slog.Info("Starting server", "host", a.Config.Server.Host, "port", a.Config.Server.Port)
 	return server.ListenAndServe()
 }
-
-func (a *Application) MuxServer() (*http.ServeMux, error) {
-	// TODO: add gzip support, static files must have their gzipped contents cached
-	// TODO: add HTTPS support
-	mux := http.NewServeMux()
-
-	mux.HandleFunc("GET /{$}", a.HandlePageRequest)
-	mux.HandleFunc("GET /{page}", a.HandlePageRequest)
-	mux.HandleFunc("GET /api/pages/{page}/content/{$}", a.HandlePageContentRequest)
-	mux.Handle("GET /static/{path...}", http.StripPrefix("/static/", FileServerWithCache(http.FS(assets.PublicFS), 2*time.Hour)))
-
-	if a.Config.Server.AssetsPath != "" {
-		absAssetsPath, err := filepath.Abs(a.Config.Server.AssetsPath)
-
-		if err != nil {
-			return mux, fmt.Errorf("invalid assets path: %s", a.Config.Server.AssetsPath)
-		}
-
-		slog.Info("Serving assets", "path", absAssetsPath)
-		assetsFS := FileServerWithCache(http.Dir(a.Config.Server.AssetsPath), 2*time.Hour)
-		mux.Handle("/assets/{path...}", http.StripPrefix("/assets/", assetsFS))
-	}
-	a.Config.Server.StartedAt = time.Now()
-
-	slog.Info("Created mux server server", "host", a.Config.Server.Host, "port", a.Config.Server.Port)
-	return mux, nil
-}

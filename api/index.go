@@ -36,7 +36,7 @@ func GetServer() int {
 		fmt.Printf("failed creating application: %v\n", err)
 		return 1
 	}
-	mux, err = app.MuxServer()
+	mux, err = MuxServer(app)
 	if err != nil {
 		fmt.Printf("http server error: %v\n", err)
 		return 1
