@@ -22,4 +22,4 @@ RUN curl https://raw.githubusercontent.com/ken-morel/glance/main/glance.yml -o g
 RUN ls
 COPY --from=builder /app/glance /glance
 RUN ls
-ENTRYPOINT ["/myapp"]
+ENTRYPOINT ["/glance"]
