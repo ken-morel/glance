@@ -1,3 +1,7 @@
+:root
+{
+  --border-radius: 20px;
+}
 body
 {
   color: blue !important;
