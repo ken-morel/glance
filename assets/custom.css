@@ -1,12 +1,8 @@
 :root
 {
-  --border-radius: 20px;
-}
-div
-{
-  margin: 3px! important;
+  --border-radius: 15px;
 }
 div.weather-bar
 {
-  border: 0.5px lightblue solid !important;
+  border: 0.5px burlywood solid !important;
 }
