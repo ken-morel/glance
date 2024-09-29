@@ -63,3 +63,7 @@ pages:
                 name: AMD
               - symbol: RDDT
                 name: Reddit
+server:
+  assets-path: ./assets
+theme:
+  custom-css-file: "/assets/custom.css"
