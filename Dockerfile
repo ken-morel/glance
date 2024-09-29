@@ -1,4 +1,5 @@
 FROM golang:1.22-alpine AS builder
+COPY . .
 RUN ls
 WORKDIR /app
 RUN ls
@@ -6,7 +7,6 @@ COPY go.mod go.sum ./
 RUN ls
 RUN go mod download
 RUN ls
-COPY . .
 RUN ls
 RUN go build -o glance .
 RUN ls
