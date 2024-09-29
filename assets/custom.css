@@ -2,15 +2,11 @@
 {
   --border-radius: 20px;
 }
-body
-{
-  color: blue !important;
-}
 div
 {
   margin: 3px! important;
 }
 div.weather-bar
 {
-  background-color: lightblue !important;
+  border: 0.5px lightblue solid !important;
 }
