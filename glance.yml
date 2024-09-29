@@ -65,7 +65,7 @@ server:
   assets-path: ./assets
 theme:
   custom-css-file: "/assets/custom.css"
-  background-color: 100 20 10
-  primary-color: 40 90 40
+  background-color: 100 0 10
+  primary-color: 40 10 100
   contrast-multiplier: 1.1
   light: false
