@@ -4,5 +4,5 @@ COPY . .
 RUN ls
 RUN go mod download
 RUN go build -o glance .
-COPY --from=builder /glance /glance
+# COPY --from=builder /glance /glance
 ENTRYPOINT ["/glance"]
