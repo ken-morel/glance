@@ -4,7 +4,6 @@ pages:
       - size: small
         widgets:
           - type: calendar
-
           - type: rss
             limit: 10
             collapse-after: 3
@@ -17,25 +16,13 @@ pages:
               - url: https://awesomekling.github.io/feed.xml
               - url: https://ishadeed.com/feed.xml
                 title: Ahmad Shadeed
-
-          - type: twitch-channels
-            channels:
-              - theprimeagen
-              - cohhcarnage
-              - christitustech
-              - blurbs
-              - asmongold
-              - jembawls
-
+          - type: weather
+            location: London, United Kingdom
       - size: full
         widgets:
-          - type: hacker-news
-
           - type: videos
             channels:
-              - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
-              - UCv6J_jJa8GJqFwQNgNrMuww # ServeTheHome
-              - UCOk-gHyjcWZNj3Br4oxwh0A # Techno Tim
+              - UCbKWv2x9t6u8yZoB3KcPtnw  # Alan Becker
 
           - type: reddit
             subreddit: selfhosted
@@ -43,9 +30,7 @@ pages:
     columns:
       - size: small
         widgets:
-          - type: weather
-            location: London, United Kingdom
-
+          - type: hacker-news
           - type: markets
             markets:
               - symbol: SPY
@@ -64,6 +49,15 @@ pages:
                 name: AMD
               - symbol: RDDT
                 name: Reddit
+          - type: twitch-channels
+            channels:
+              - theprimeagen
+              - cohhcarnage
+              - christitustech
+              - blurbs
+              - asmongold
+              - jembawls
+
 server:
   assets-path: ./assets
 theme:
