@@ -31,6 +31,9 @@ pages:
       - size: small
         widgets:
           - type: hacker-news
+      - size: full
+        widgets:
+          - type: hacker-news
           - type: markets
             markets:
               - symbol: SPY
