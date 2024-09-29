@@ -39,7 +39,8 @@ pages:
 
           - type: reddit
             subreddit: selfhosted
-
+  - name: Feeds
+    columns:
       - size: small
         widgets:
           - type: weather
@@ -67,3 +68,7 @@ server:
   assets-path: ./assets
 theme:
   custom-css-file: "/assets/custom.css"
+  background-color: 100 20 10
+  primary-color: 40 90 40
+  contrast-multiplier: 1.1
+  light: false
