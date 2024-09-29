@@ -1,6 +1,12 @@
-body {
-  background-color: dark-blue !important;
+body
+{
+  color: blue !important;
 }
-div {
-  margin: 3px!important;
+div
+{
+  margin: 3px! important;
+}
+div.weather-bar
+{
+  background-color: light-blue !important;
 }
