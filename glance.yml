@@ -18,7 +18,14 @@ pages:
               - url: https://ishadeed.com/feed.xml
                 title: Ahmad Shadeed
           - type: weather
-            location: London, United Kingdom
+            location: Yaounde, Cameroon
+          - type: monitor
+            cache: 1m
+            title: Services
+            sites:
+              - title: it-tools
+                url: https://it-tools-a6az.onrender.com/
+                icon: https://it-tools-a6az.onrender.com/favicon.ico
       - size: full
         widgets:
           - type: videos
