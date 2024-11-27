@@ -28,6 +28,7 @@ pages:
 
           - type: reddit
             subreddit: selfhosted
+            style: horizontal-cards
   - name: Feeds
     columns:
       - size: small
