@@ -22,6 +22,7 @@ pages:
       - size: full
         widgets:
           - type: videos
+            style: grid-cards
             channels:
               - UCbKWv2x9t6u8yZoB3KcPtnw  # Alan Becker
 
