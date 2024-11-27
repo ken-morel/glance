@@ -8,6 +8,7 @@ pages:
             limit: 10
             collapse-after: 3
             cache: 3h
+            style: detailed-list
             feeds:
               - url: https://ciechanow.ski/atom.xml
               - url: https://www.joshwcomeau.com/rss.xml
