@@ -32,7 +32,7 @@ pages:
             style: grid-cards
             channels:
               - UCbKWv2x9t6u8yZoB3KcPtnw  # Alan Becker
-
+              - UCEWpbFLzoYGPfuWUMFPSaoA  # The org.chem teacher
           - type: reddit
             subreddit: selfhosted
             style: horizontal-cards
